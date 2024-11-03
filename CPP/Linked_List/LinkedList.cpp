@@ -155,33 +155,48 @@ public:
             this->size = 0;
         }
     }
+
+    void swap(int i, int j) {
+        if (this->size < 2) {
+            return;
+        }
+        else if (i >= this->size || i < 0) {
+            return;
+        }
+        else if (j >= this->size || j < 0) {
+            return;
+        }
+        else {
+            Node* i_node = this->head;
+            Node* j_node = this->head;
+            if (i == 0) {
+                while (j-- > 0) {
+                    j_node = j_node->next;
+                }
+                Node* i_next_node = i_node->next;
+                Node* j_next_node = j_node->next;
+                this->head = j_node;
+                j_node->next = i_next_node;
+                i_next_node = i_node;
+                i_node->next = j_next_node;
+            }
+            else {
+
+            }
+        }
+    }
 };
 
 int main() {
     Linked_List LL;
 
-    LL.insert(0, 0);
-    LL.insert(1, 1);
-    LL.insert(2, 2);
-    LL.insert(3, 3);
-    LL.insert(0, 4);
-    cout << "연결 리스트 사이즈: " << LL.size << "\n";
+    LL.append(3);
+    LL.append(1);
+    LL.append(4);
+    LL.append(5);
     LL.display();
 
-    LL.remove(2);
-    cout << "연결 리스트 사이즈: " << LL.size << "\n";
-    LL.display();
-
-    LL.remove(0);
-    cout << "연결 리스트 사이즈: " << LL.size << "\n";
-    LL.display();
-
-    LL.remove(2);
-    cout << "연결 리스트 사이즈: " << LL.size << "\n";
-    LL.display();
-
-    LL.clear();
-    cout << "연결 리스트 사이즈: " << LL.size << "\n";
+    LL.swap(0, 2);
     LL.display();
 
     return 0;
