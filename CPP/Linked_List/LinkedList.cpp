@@ -184,17 +184,5 @@ int main() {
     cout << "연결 리스트 사이즈: " << LL.size << "\n";
     LL.display();
 
-    LL.display();
-    LL.display();
-    LL.display();
-    LL.display();
-    LL.display();
-    LL.display(); LL.display(); LL.display();
-    LL.display();
-    LL.display();
-    LL.display();
-    LL.display();
-    LL.display();
-
     return 0;
 }

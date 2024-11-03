@@ -64,7 +64,7 @@ int main() {
     CLL.append(3);
     CLL.append(4);
     CLL.append(5);
-    cout << "¿¬°á ¸®½ºÆ® »çÀÌÁî: " << CLL.size << "\n";
+    cout << "연결 리스트 길이: " << CLL.size << "\n";
     CLL.display();
     CLL.display();
 
