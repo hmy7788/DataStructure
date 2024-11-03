@@ -165,23 +165,23 @@ int main() {
     LL.insert(2, 2);
     LL.insert(3, 3);
     LL.insert(0, 4);
-    cout << "¿¬°á ¸®½ºÆ® »çÀÌÁî: " << LL.size << "\n";
+    cout << "ì—°ê²° ë¦¬ìŠ¤íŠ¸ ì‚¬ì´ì¦ˆ: " << LL.size << "\n";
     LL.display();
 
     LL.remove(2);
-    cout << "¿¬°á ¸®½ºÆ® »çÀÌÁî: " << LL.size << "\n";
+    cout << "ì—°ê²° ë¦¬ìŠ¤íŠ¸ ì‚¬ì´ì¦ˆ: " << LL.size << "\n";
     LL.display();
 
     LL.remove(0);
-    cout << "¿¬°á ¸®½ºÆ® »çÀÌÁî: " << LL.size << "\n";
+    cout << "ì—°ê²° ë¦¬ìŠ¤íŠ¸ ì‚¬ì´ì¦ˆ: " << LL.size << "\n";
     LL.display();
 
     LL.remove(2);
-    cout << "¿¬°á ¸®½ºÆ® »çÀÌÁî: " << LL.size << "\n";
+    cout << "ì—°ê²° ë¦¬ìŠ¤íŠ¸ ì‚¬ì´ì¦ˆ: " << LL.size << "\n";
     LL.display();
 
     LL.clear();
-    cout << "¿¬°á ¸®½ºÆ® »çÀÌÁî: " << LL.size << "\n";
+    cout << "ì—°ê²° ë¦¬ìŠ¤íŠ¸ ì‚¬ì´ì¦ˆ: " << LL.size << "\n";
     LL.display();
 
     LL.display();

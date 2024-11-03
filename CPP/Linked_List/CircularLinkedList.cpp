@@ -64,7 +64,7 @@ int main() {
     CLL.append(3);
     CLL.append(4);
     CLL.append(5);
-    cout << "¿¬°á ¸®½ºÆ® »çÀÌÁî: " << CLL.size << "\n";
+    cout << "Â¿Â¬Â°Ã¡ Â¸Â®Â½ÂºÃ†Â® Â»Ã§Ã€ÃŒÃÃ®: " << CLL.size << "\n";
     CLL.display();
     CLL.display();
 

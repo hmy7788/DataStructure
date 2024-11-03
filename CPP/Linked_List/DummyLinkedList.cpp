@@ -94,11 +94,11 @@ int main() {
     DLL.append(2);
     DLL.append(3);
     DLL.append(4);
-    cout << "¿¬°á ¸®½ºÆ® »çÀÌÁî: " << DLL.size << "\n";
+    cout << "ì—°ê²° ë¦¬ìŠ¤íŠ¸ ì‚¬ì´ì¦ˆ: " << DLL.size << "\n";
     DLL.display();
 
     DLL.pop();
-    cout << "¿¬°á ¸®½ºÆ® »çÀÌÁî: " << DLL.size << "\n";
+    cout << "ì—°ê²° ë¦¬ìŠ¤íŠ¸ ì‚¬ì´ì¦ˆ: " << DLL.size << "\n";
     DLL.display();
 
     return 0;
