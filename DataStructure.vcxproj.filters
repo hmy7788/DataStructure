@@ -27,20 +27,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LinkedList.cpp">
-      <Filter>소스 파일\CPP\Linked_List</Filter>
-    </ClCompile>
-    <ClCompile Include="DummyLinkedList.cpp">
-      <Filter>소스 파일\CPP\Linked_List</Filter>
-    </ClCompile>
-    <ClCompile Include="CircularLinkedList.cpp">
-      <Filter>소스 파일\CPP\Linked_List</Filter>
-    </ClCompile>
     <ClCompile Include="C\Linked_List\LinkedList.c">
       <Filter>소스 파일\C\Linked_List</Filter>
     </ClCompile>
     <ClCompile Include="C\Linked_List\DummyLinkedList.c">
       <Filter>소스 파일\C\Linked_List</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Linked_List\CircularLinkedList.cpp">
+      <Filter>소스 파일\CPP\Linked_List</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Linked_List\DummyLinkedList.cpp">
+      <Filter>소스 파일\CPP\Linked_List</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Linked_List\LinkedList.cpp">
+      <Filter>소스 파일\CPP\Linked_List</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
