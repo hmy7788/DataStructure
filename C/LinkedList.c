@@ -165,23 +165,23 @@ int main() {
     insert(2, 2, &LL);
     insert(3, 3, &LL);
     insert(0, 4, &LL);
-    printf("ø¨∞· ∏ÆΩ∫∆Æ ªÁ¿Ã¡Ó: %d\n", LL.size);
+    printf("Ïó∞Í≤∞ Î¶¨Ïä§Ìä∏ ÏÇ¨Ïù¥Ï¶à: %d\n", LL.size);
     display(&LL);
 
     node_delete(2, &LL);
-    printf("ø¨∞· ∏ÆΩ∫∆Æ ªÁ¿Ã¡Ó: %d\n", LL.size);
+    printf("Ïó∞Í≤∞ Î¶¨Ïä§Ìä∏ ÏÇ¨Ïù¥Ï¶à: %d\n", LL.size);
     display(&LL);
 
     node_delete(0, &LL);
-    printf("ø¨∞· ∏ÆΩ∫∆Æ ªÁ¿Ã¡Ó: %d\n", LL.size);
+    printf("Ïó∞Í≤∞ Î¶¨Ïä§Ìä∏ ÏÇ¨Ïù¥Ï¶à: %d\n", LL.size);
     display(&LL);
 
     node_delete(2, &LL);
-    printf("ø¨∞· ∏ÆΩ∫∆Æ ªÁ¿Ã¡Ó: %d\n", LL.size);
+    printf("Ïó∞Í≤∞ Î¶¨Ïä§Ìä∏ ÏÇ¨Ïù¥Ï¶à: %d\n", LL.size);
     display(&LL);
 
     clear(&LL);
-    printf("ø¨∞· ∏ÆΩ∫∆Æ ªÁ¿Ã¡Ó: %d\n", LL.size);
+    printf("Ïó∞Í≤∞ Î¶¨Ïä§Ìä∏ ÏÇ¨Ïù¥Ï¶à: %d\n", LL.size);
     display(&LL);
 
     return 0;
