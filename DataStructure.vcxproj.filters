@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\C\Linked_List">
       <UniqueIdentifier>{b31ec21b-0ed2-4f7b-ad0c-739cd1194e41}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\CPP\Stack">
+      <UniqueIdentifier>{7ed10eb4-6301-4bc1-b6a0-b52cb0257997}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C\Linked_List\LinkedList.c">
@@ -41,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="CPP\Linked_List\LinkedList.cpp">
       <Filter>소스 파일\CPP\Linked_List</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>소스 파일\CPP\Stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
