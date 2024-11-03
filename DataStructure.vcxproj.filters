@@ -45,7 +45,7 @@
     <ClCompile Include="CPP\Linked_List\LinkedList.cpp">
       <Filter>소스 파일\CPP\Linked_List</Filter>
     </ClCompile>
-    <ClCompile Include="Stack.cpp">
+    <ClCompile Include="CPP\Stack\Stack.cpp">
       <Filter>소스 파일\CPP\Stack</Filter>
     </ClCompile>
   </ItemGroup>
