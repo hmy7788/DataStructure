@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CircularLinkedList.cpp" />
+    <ClCompile Include="C\Linked_List\LinkedList.c" />
     <ClCompile Include="DummyLinkedList.cpp" />
     <ClCompile Include="LinkedList.c" />
     <ClCompile Include="LinkedList.cpp" />

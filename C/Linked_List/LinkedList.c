@@ -184,5 +184,7 @@ int main() {
     printf("연결 리스트 사이즈: %d\n", LL.size);
     display(&LL);
 
+    printf("1");
+
     return 0;
 }
