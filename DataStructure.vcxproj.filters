@@ -36,10 +36,10 @@
     <ClCompile Include="CircularLinkedList.cpp">
       <Filter>소스 파일\CPP\Linked_List</Filter>
     </ClCompile>
-    <ClCompile Include="LinkedList.c">
+    <ClCompile Include="C\Linked_List\LinkedList.c">
       <Filter>소스 파일\C\Linked_List</Filter>
     </ClCompile>
-    <ClCompile Include="C\Linked_List\LinkedList.c">
+    <ClCompile Include="DummyLinkedList.c">
       <Filter>소스 파일\C\Linked_List</Filter>
     </ClCompile>
   </ItemGroup>
