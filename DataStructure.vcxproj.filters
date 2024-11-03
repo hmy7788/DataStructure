@@ -39,7 +39,7 @@
     <ClCompile Include="C\Linked_List\LinkedList.c">
       <Filter>소스 파일\C\Linked_List</Filter>
     </ClCompile>
-    <ClCompile Include="DummyLinkedList.c">
+    <ClCompile Include="C\Linked_List\DummyLinkedList.c">
       <Filter>소스 파일\C\Linked_List</Filter>
     </ClCompile>
   </ItemGroup>
