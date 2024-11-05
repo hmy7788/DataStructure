@@ -20,20 +20,17 @@ public:
     Node* tail;
 
     CirCular_Linked_List() {
+        Node* dummy_node = new Node(NULL, NULL);
+
         this->size = 0;
-        this->head = new Node(NULL, NULL);
-        this->tail = this->head;
-        this->head->next = this->head;
+        this->head = dummy_node;
+        this->tail = dummy_node;
+        dummy_node->next = dummy_node;
     }
 
     void append(int value) {
         Node* new_node = new Node(value, this->head);
-        Node* current_node = this->head;
-
-        while (current_node->next != this->head) {
-            current_node = current_node->next;
-        }
-
+        Node* current_node = this->tail;
         current_node->next = new_node;
         this->tail = new_node;
         this->size++;
@@ -51,6 +48,7 @@ public:
                 cout << current_node->value << " -> ";
                 current_node = current_node->next;
             }
+            cout << tail_node->value << " -> ";
             cout << "NULL\n\n";
         }
     }
@@ -61,11 +59,10 @@ int main() {
 
     CLL.append(1);
     CLL.append(2);
-    CLL.append(3);
-    CLL.append(4);
-    CLL.append(5);
+    CLL.append(2);
+    CLL.append(2);
+    CLL.append(2);
     cout << "연결 리스트 길이: " << CLL.size << "\n";
-    CLL.display();
     CLL.display();
 
     return 0;
